@@ -103,8 +103,8 @@ const Product = () => {
         description: editedProduct.description,
         category: editedProduct.category,
         image: editedProduct.image,
-        rate: editedProduct.rate, // Access rate directly
-        count: editedProduct.count, // Access count directly
+        rate: editedProduct.rate,
+        count: editedProduct.count,
       };
   
       const response = await axios.put(
